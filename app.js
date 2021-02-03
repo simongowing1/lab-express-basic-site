@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 app.use(express.static(__dirname + '/public'));
+//app.use(express.static(__dirname + '/public/images'));
 
 app.get('/', function (request, response) {
     console.log(__dirname);

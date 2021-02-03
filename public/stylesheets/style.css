@@ -1,7 +1,26 @@
+* {
+    margin: 0;
+}
+
 body {
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: red
+    color: black;
+    background-color: #f6f6ec;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bio {
+    margin: 100px;
+}
+
+.aboutImage {
+    width: 350px;
 }
